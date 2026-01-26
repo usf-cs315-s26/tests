@@ -1,0 +1,200 @@
+[project]
+build = "none"
+strip_output = """
+Use default settings!
+"""
+timeout = 20
+capture_stderr = false
+due_date = "2025-04-22 23:59:59 -0700"
+
+[[tests]]
+name = "00-add-r"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/00-add-r-test.dig"]
+expected = """
+00-add-r-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "01-add-i"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/01-add-i-test.dig"]
+expected = """
+01-add-i-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "02-sll-r"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/02-sll-r-test.dig"]
+expected = """
+02-sll-r-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "03-sll-i"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/03-sll-i-test.dig"]
+expected = """
+03-sll-i-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "04-srl-r"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/04-srl-r-test.dig"]
+expected = """
+04-srl-r-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "05-srl-i"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/05-srl-i-test.dig"]
+expected = """
+05-srl-i-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "06-sd-ld"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/06-sd-ld-test.dig"]
+expected = """
+06-sd-ld-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "07-sw-lw"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/07-sw-lw-test.dig"]
+expected = """
+07-sw-lw-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "08-jal"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/08-jal-test.dig"]
+expected = """
+08-jal-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "09-j"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/09-j-test.dig"]
+expected = """
+09-j-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "10-beq"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/10-beq-test.dig"]
+expected = """
+10-beq-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "11-blt"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/11-blt-test.dig"]
+expected = """
+11-blt-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "12-bge"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/12-bge-test.dig"]
+expected = """
+12-bge-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "13-mul"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/13-mul-test.dig"]
+expected = """
+13-mul-test: passed
+"""
+rubric = 1 #make it add up to 30
+
+[[tests]]
+name = "14-lui"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/14-lui-test.dig"]
+expected = """
+14-lui-test: passed
+"""
+rubric = 1 #make it add up to 30
+
+[[tests]]
+name = "15-sb-lb"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/15-sb-lb-test.dig"]
+expected = """
+15-sb-lb-test: passed
+"""
+rubric = 2
+
+[[tests]]
+name = "16-quadratic"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/16-quadratic-test.dig"]
+expected = """
+16-quadratic-test: passed
+"""
+rubric = 5
+
+[[tests]]
+name = "17-get-bitseq"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/17-get-bitseq-test.dig"]
+expected = """
+17-get-bitseq-test: passed
+"""
+rubric = 5
+
+[[tests]]
+name = "18-max3"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/18-max3-test.dig"]
+expected = """
+18-max3-test: passed
+"""
+rubric = 5
+
+[[tests]]
+name = "19-fib-rec"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/19-fib-rec-test.dig"]
+expected = """
+19-fib-rec-test: passed
+"""
+rubric = 5
+
+[[tests]]
+name = "20-is-pal"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/20-is-pal-test.dig"]
+expected = """
+20-is-pal-test: passed
+"""
+rubric = 5
+
+[[tests]]
+name = "21-to-upper"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/21-to-upper-test.dig"]
+expected = """
+21-to-upper-test: passed
+"""
+rubric = 5
+
+[[tests]]
+name = "22-sort"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/22-sort-test.dig"]
+expected = """
+22-sort-test: passed
+"""
+rubric = 5
+
+[[tests]]
+name = "23-str-to-int"
+input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/23-str-to-int-test.dig"]
+expected = """
+23-str-to-int-test: passed
+"""
+rubric = 5
