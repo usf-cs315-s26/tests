@@ -15,3 +15,21 @@ percentage = 0.75
 suffix = "super-late"
 date = "2026-05-14"
 percentage = 0.5
+
+[project01]
+
+[[project01.dates]]
+suffix = "due"
+date = "2026-02-04"
+percentage = 1.0
+
+[[project01.dates]]
+suffix = "1week"
+date = "2026-02-09"
+percentage = 0.75
+
+[[project01.dates]]
+suffix = "super-late"
+date = "2026-05-14"
+percentage = 0.5
+

@@ -1,6 +1,5 @@
 [project]
 timeout = 30
-#due_date = "2025-01-28 23:59:59 -0800"
 
 [[tests]]
 name = "01"
