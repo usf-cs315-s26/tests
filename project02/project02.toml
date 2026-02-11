@@ -1,6 +1,5 @@
 [project]
 timeout = 30
-due_date = "2025-02-11 23:59:59 -0800"
 
 [[tests]]
 name = "to_upper_1"
