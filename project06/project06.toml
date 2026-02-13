@@ -5,7 +5,6 @@ Use default settings!
 """
 timeout = 20
 capture_stderr = false
-due_date = "2025-04-22 23:59:59 -0700"
 
 [[tests]]
 name = "00-add-r"

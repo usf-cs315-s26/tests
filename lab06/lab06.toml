@@ -4,7 +4,6 @@ strip_output = """
 Use default settings!
 """
 capture_stderr = false
-due_date = "2025-04-08 23:59:59 -0700"
 
 [[tests]]
 name = "add-imm"

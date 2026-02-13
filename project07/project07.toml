@@ -4,7 +4,6 @@ strip_output = """
 Use default settings!
 """
 timeout = 20
-due_date = "2025-05-08 23:59:59 -0700"
 
 [[tests]]
 name = "00-add-3nop"

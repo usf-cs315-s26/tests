@@ -1,5 +1,4 @@
 [project]
-due_date = "2025-03-25 23:59:59 -0800"
 build = "none"
 strip_output = """
 Use default settings!

@@ -4,7 +4,6 @@ strip_output = """
 Use default settings!
 """
 capture_stderr = false
-due_date = "2025-04-01 23:59:59 -0700"
 timeout = 30
 
 [[tests]]
