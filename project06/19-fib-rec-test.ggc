@@ -1,0 +1,48 @@
+{
+  "version": "1.5",
+  "timestamp": "2026-08-13T18:32:49.537Z",
+  "name": "19-fib-rec-test",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1786645955821_t73ka5e9i",
+      "type": "test",
+      "x": 107,
+      "y": 10,
+      "props": {
+        "label": "19 - fib_rec",
+        "table": {
+          "inputNames": [
+            "EN",
+            "PROG"
+          ],
+          "outputNames": [
+            "A0"
+          ],
+          "rows": [
+            [
+              1,
+              19,
+              55
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "max_cycles": 10000,
+        "lastUpdate": 1786500103642
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

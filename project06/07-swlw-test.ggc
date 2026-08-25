@@ -1,0 +1,48 @@
+{
+  "version": "1.5",
+  "timestamp": "2026-08-13T18:19:42.725Z",
+  "name": "07-swlw-test",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1786637246555_x3r91yk95",
+      "type": "test",
+      "x": 128,
+      "y": 26,
+      "props": {
+        "label": "07 - lwsw",
+        "table": {
+          "inputNames": [
+            "EN",
+            "PROG"
+          ],
+          "outputNames": [
+            "A0"
+          ],
+          "rows": [
+            [
+              1,
+              7,
+              99
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "lastUpdate": 1786499818409,
+        "max_cycles": 100
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

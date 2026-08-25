@@ -5,6 +5,7 @@ Use default settings!
 """
 timeout = 15
 capture_stderr = false
+container = "java"
 
 [[tests]]
 name = "max2"

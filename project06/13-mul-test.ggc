@@ -1,0 +1,48 @@
+{
+  "version": "1.5",
+  "timestamp": "2026-08-13T18:24:46.909Z",
+  "name": "13-mul-test",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1786645477999_mhl7pes1q",
+      "type": "test",
+      "x": 106,
+      "y": 6,
+      "props": {
+        "label": "13 - mul",
+        "table": {
+          "inputNames": [
+            "EN",
+            "PROG"
+          ],
+          "outputNames": [
+            "A0"
+          ],
+          "rows": [
+            [
+              1,
+              13,
+              9
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "lastUpdate": 1786499822625,
+        "max_cycles": 100
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

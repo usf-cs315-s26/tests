@@ -1,39 +1,27 @@
 [project]
 build = "none"
-strip_output = """
-Use default settings!
-"""
-capture_stderr = false
 timeout = 30
 
 [[tests]]
 name = "fib-rec"
-input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/fib-rec-test.dig"]
-expected = """
-fib-rec-test: passed
-"""
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/test-fib-rec.ggc"]
+expected = "PASS"
 rubric = 22
 
 [[tests]]
 name = "is-pal-rec"
-input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/is-pal-test.dig"]
-expected = """
-is-pal-test: passed
-"""
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/test-pal-rec.ggc"]
+expected = "PASS"
 rubric = 22
 
 [[tests]]
 name = "get-bitseq"
-input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/get-bitseq-test.dig"]
-expected = """
-get-bitseq-test: passed
-"""
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/test-get-bitseq.ggc"]
+expected = "PASS"
 rubric = 22
 
 [[tests]]
 name = "quadratic"
-input = ["java", "-cp", "$digital", "CLI", "test", "$project.dig", "-tests", "$project_tests/quadratic-test.dig"]
-expected = """
-quadratic-test: passed
-"""
+input = ["ggl-grade", "$project.ggc", "--test", "$project_tests/test-quadratic.ggc"]
+expected = "PASS"
 rubric = 22

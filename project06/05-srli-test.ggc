@@ -1,0 +1,48 @@
+{
+  "version": "1.5",
+  "timestamp": "2026-08-13T05:07:53.273Z",
+  "name": "test-srli",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1786597660367_7j7bubm6v",
+      "type": "test",
+      "x": 128,
+      "y": 20,
+      "props": {
+        "label": "05 - srli",
+        "table": {
+          "inputNames": [
+            "EN",
+            "PROG"
+          ],
+          "outputNames": [
+            "A0"
+          ],
+          "rows": [
+            [
+              1,
+              5,
+              8
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "lastUpdate": 1786499816143,
+        "max_cycles": 100
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

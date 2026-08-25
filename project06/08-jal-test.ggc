@@ -1,0 +1,48 @@
+{
+  "version": "1.5",
+  "timestamp": "2026-08-13T16:08:11.705Z",
+  "name": "08-jal-test",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1786637268260_u2rwsoo0c",
+      "type": "test",
+      "x": 111,
+      "y": 10,
+      "props": {
+        "label": "08 - jal",
+        "table": {
+          "inputNames": [
+            "EN",
+            "PROG"
+          ],
+          "outputNames": [
+            "A0"
+          ],
+          "rows": [
+            [
+              1,
+              8,
+              3
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "lastUpdate": 1786499819357,
+        "max_cycles": 100
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

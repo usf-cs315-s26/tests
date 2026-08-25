@@ -1,0 +1,65 @@
+{
+  "version": "1.5",
+  "timestamp": "2026-08-12T19:35:05.350Z",
+  "name": "fib-rec-test",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1786563250536_ub46otc8g",
+      "type": "test",
+      "x": 10,
+      "y": 7,
+      "props": {
+        "label": "fib-rec.test",
+        "table": {
+          "inputNames": [
+            "PROG"
+          ],
+          "outputNames": [
+            "TOTAL",
+            "ITYPE",
+            "RTYPE",
+            "LOAD",
+            "STYPE",
+            "BTYPE",
+            "JAL",
+            "J",
+            "JALR"
+          ],
+          "rows": [
+            [
+              0,
+              17,
+              5,
+              1,
+              3,
+              3,
+              1,
+              2,
+              0,
+              2
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "lastUpdate": 1785964231306,
+        "hasError": false,
+        "hasWarning": false,
+        "errorMessageId": "",
+        "errorDetails": {}
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

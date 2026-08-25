@@ -1,0 +1,52 @@
+{
+  "version": "1.5",
+  "timestamp": "2026-08-13T18:35:14.040Z",
+  "name": "22-sort-s-test",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1786646097551_mg0od5zc0",
+      "type": "test",
+      "x": 103,
+      "y": 6,
+      "props": {
+        "label": "22 - sort_s",
+        "table": {
+          "inputNames": [
+            "EN",
+            "PROG"
+          ],
+          "outputNames": [
+            "A0",
+            "A1",
+            "A2"
+          ],
+          "rows": [
+            [
+              1,
+              22,
+              51539607562,
+              34359738374,
+              17179869186
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "max_cycles": 1000,
+        "lastUpdate": 1786500202761
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

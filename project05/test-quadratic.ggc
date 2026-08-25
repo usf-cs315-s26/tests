@@ -1,0 +1,65 @@
+{
+  "version": "1.5",
+  "timestamp": "2026-08-12T22:04:00.876Z",
+  "name": "test-quadratic",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1786572227347_5s2shyotd",
+      "type": "test",
+      "x": 55,
+      "y": 10,
+      "props": {
+        "label": "Quadratic",
+        "table": {
+          "inputNames": [
+            "PROG"
+          ],
+          "outputNames": [
+            "TOTAL",
+            "ITYPE",
+            "RTYPE",
+            "LOAD",
+            "STYPE",
+            "BTYPE",
+            "JAL",
+            "J",
+            "JALR"
+          ],
+          "rows": [
+            [
+              3,
+              5,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "lastUpdate": 1786572077783,
+        "hasError": false,
+        "hasWarning": false,
+        "errorMessageId": "",
+        "errorDetails": {}
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

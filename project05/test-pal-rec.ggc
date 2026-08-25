@@ -1,0 +1,65 @@
+{
+  "version": "1.5",
+  "timestamp": "2026-08-12T22:02:47.533Z",
+  "name": "test-pal-rec",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1786572128937_2tbivkn0h",
+      "type": "test",
+      "x": 44,
+      "y": 9,
+      "props": {
+        "label": "palindrome",
+        "table": {
+          "inputNames": [
+            "PROG"
+          ],
+          "outputNames": [
+            "TOTAL",
+            "ITYPE",
+            "RTYPE",
+            "LOAD",
+            "STYPE",
+            "BTYPE",
+            "JAL",
+            "J",
+            "JALR"
+          ],
+          "rows": [
+            [
+              1,
+              18,
+              6,
+              2,
+              3,
+              1,
+              2,
+              1,
+              2,
+              1
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "lastUpdate": 1786572100376,
+        "hasError": false,
+        "hasWarning": false,
+        "errorMessageId": "",
+        "errorDetails": {}
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

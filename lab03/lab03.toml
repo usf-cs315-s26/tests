@@ -1,5 +1,6 @@
 [project]
 timeout = 30
+container = "riscv"
 
 [[tests]]
 name = "fib_rec-1"

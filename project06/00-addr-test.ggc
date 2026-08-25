@@ -1,0 +1,52 @@
+{
+  "version": "1.5",
+  "timestamp": "2026-08-13T18:17:46.018Z",
+  "name": "00-addr-test",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1786597509869_39y691n7y",
+      "type": "test",
+      "x": 81,
+      "y": 5,
+      "props": {
+        "label": "00 - addr",
+        "table": {
+          "inputNames": [
+            "EN",
+            "PROG"
+          ],
+          "outputNames": [
+            "A2"
+          ],
+          "rows": [
+            [
+              1,
+              0,
+              3
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "lastUpdate": 1786499812940,
+        "hasError": false,
+        "hasWarning": false,
+        "errorMessageId": "",
+        "errorDetails": {},
+        "max_cycles": 100
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

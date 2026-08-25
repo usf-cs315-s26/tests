@@ -1,0 +1,65 @@
+{
+  "version": "1.5",
+  "timestamp": "2026-08-12T22:03:27.772Z",
+  "name": "test-get-bitseq",
+  "interface": {
+    "inputs": [],
+    "outputs": []
+  },
+  "nextCircuitId": 2,
+  "components": [
+    {
+      "id": "test_1786572195187_yw0kywqgb",
+      "type": "test",
+      "x": 49,
+      "y": 10,
+      "props": {
+        "label": "Get bitseq",
+        "table": {
+          "inputNames": [
+            "PROG"
+          ],
+          "outputNames": [
+            "TOTAL",
+            "ITYPE",
+            "RTYPE",
+            "LOAD",
+            "STYPE",
+            "BTYPE",
+            "JAL",
+            "J",
+            "JALR"
+          ],
+          "rows": [
+            [
+              2,
+              13,
+              6,
+              4,
+              0,
+              0,
+              1,
+              0,
+              1,
+              1
+            ]
+          ]
+        },
+        "stop_enabled": true,
+        "stop_output_name": "DONE",
+        "stop_output_value": 1,
+        "reset_enabled": true,
+        "reset_input_name": "CLR",
+        "lastUpdate": 1786572108738,
+        "hasError": false,
+        "hasWarning": false,
+        "errorMessageId": "",
+        "errorDetails": {}
+      },
+      "ports": []
+    }
+  ],
+  "wires": [],
+  "wireJunctions": [],
+  "schematicComponents": {}
+}

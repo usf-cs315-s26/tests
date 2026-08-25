@@ -3,17 +3,17 @@
 
 [[lab01.dates]]
 suffix = "due"
-date = "2026-01-29"
+date = "2026-08-26"
 percentage = 1.0
 
 [[lab01.dates]]
 suffix = "1week"
-date = "2026-02-05"
+date = "2026-09-03"
 percentage = 0.75
 
 [[lab01.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [project01]
@@ -30,7 +30,7 @@ percentage = 0.75
 
 [[project01.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [lab02]
@@ -47,7 +47,7 @@ percentage = 0.75
 
 [[lab02.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [project02]
@@ -64,7 +64,7 @@ percentage = 0.75
 
 [[project02.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [lab03]
@@ -81,7 +81,7 @@ percentage = 0.75
 
 [[lab03.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [project03]
@@ -98,7 +98,7 @@ percentage = 0.75
 
 [[project03.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [lab04]
@@ -115,7 +115,7 @@ percentage = 0.75
 
 [[lab04.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [project04]
@@ -132,7 +132,7 @@ percentage = 0.75
 
 [[project04.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [lab05]
@@ -149,7 +149,7 @@ percentage = 0.75
 
 [[lab05.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [project05]
@@ -166,7 +166,7 @@ percentage = 0.75
 
 [[project05.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [lab06]
@@ -183,7 +183,7 @@ percentage = 0.75
 
 [[lab06.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [lab07]
@@ -200,7 +200,7 @@ percentage = 0.75
 
 [[lab07.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [project06]
@@ -217,13 +217,13 @@ percentage = 0.75
 
 [[project06.dates]]
 suffix = "super-late"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 0.5
 
 [project07]
 
 [[project07.dates]]
 suffix = "due"
-date = "2026-05-14"
+date = "2026-12-10"
 percentage = 1.0
 
